@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <script src="./weatherApp.js" defer></script>
+        <link href="./weatherApp.css" rel="stylesheet" type='text/css'>
+    </head>
+    <body>
+        <header>
+            <nav >
+                <ul id="menu">
+                    <li><a href="#weather">Weather</a></li>
+                    <li><a href="#venuesCont">Places</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="content">
+            <section id="heading">
+                <h1>Weather Forecast for the day</h1>
+                <label for="place">Location: </label>
+                <input id="place" placeholder="Enter location">
+                <p class="Button" id="submit">Search</p>
+                
+            </section>
+            <section id="weather">
+                
+                <p id="temp"></p>
+                
+            </section>
+            
+        </main>
+        <footer id="footer">
+            <div>
+                <h1>Developer</h1>
+                <p>Author:Dhananjaya K S</p>
+                <p>E-mail:<a href="mailto:ksdhananjaya05@gmail.com">ksdhananjaya05@gmail.com</a></p>
+            </div>
+            <div>
+                <h1>API Sources</h1>
+                <p><a href="https://developer.foursquare.com/" target="_blank">Foursquare</a></p>
+                <p><a href="https://openweathermap.org/" target="_blank">OpenWeather</a></p>
+            </div>
+        </footer>
+    </body>
+</html>

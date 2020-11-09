@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    background-color: #034AA6;
+    height: 3rem;
+    align-items: center;
+    color: aliceblue;
+}
+#menu li{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid white;
+}
+body{
+    background-color:#F2B705;
+    color: #080108;
+}
+.Button{
+    display: inline-block;
+    background-color: rgb(59, 11, 148);
+    color: aliceblue;
+    width: 6rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+#weather{
+    display: block;
+    width: 500px;
+    margin: 3rem auto;
+    background-color:#0476D9;
+    padding: 3rem 5rem 3rem 5rem;
+    border-radius: 10px;
+    
+}
+#temp{
+    display: inline;
+    font-size: 3rem;
+    position: relative;
+    color: aliceblue;
+    
+    border-radius: 6px;
+}
+#weather p{
+    display: inline;
+    font-size: 3rem;
+    position: relative;
+    
+}
+#heading{
+    display: block;
+    width: 500px;
+    margin: 3rem auto;
+    
+}
+#heading h1{
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+#venuesCont{
+    display: block;
+    width: 500px;
+    margin: 3rem auto;
+    background-color: #0476D9;
+    padding: 3rem 5rem 3rem 5rem;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.venue{
+    margin: 2rem 0;
+    background-color: #05AFF2;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.venue .iconCont{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+}
+.venue .venueText{
+    display: inline-block;
+    width: 400px;
+    padding-left: 2rem;
+    color: aliceblue;
+}
+footer{
+    display: flex;
+    height: 200px;
+    padding: 2rem 0;
+   background-color:#034AA6;
+   color: antiquewhite;
+   
+   
+}
+footer div{
+    width: 49%;
+    text-align: left;
+    padding-left:15%;
+    text-align: left;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: antiquewhite;
+}
+footer div p{
+    font-size: 1.2rem;
+    padding: 5px;
+    
+
+}
